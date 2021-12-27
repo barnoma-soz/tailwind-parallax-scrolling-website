@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-parallax-scrolling-website",
+  "version": "1.0.0",
+  "description": "Parallax Scrolling Website",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --minify",
+    "watch": "npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barnoma-soz/tailwind-parallax-scrolling-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barnoma-soz/tailwind-parallax-scrolling-website/issues"
+  },
+  "homepage": "https://github.com/barnoma-soz/tailwind-parallax-scrolling-website#readme",
+  "dependencies": {
+    "tailwindcss": "^3.0.7"
+  }
+}
