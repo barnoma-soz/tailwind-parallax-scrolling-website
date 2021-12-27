@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax Scrolling Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../dist/styles.css" rel="stylesheet" />
+  </head>
+  <body class="font-popins min-h-screen bg-gradient-to-b from-[#2b1055] to-[#7597de] overflow-x-hidden">
+    <header class="absolute bg-transparent top-0 left-0 w-full px-[100px] py-[30px] flex items-center justify-between z-40">
+      <a href="#" class="text-white uppercase font-bold text-[2em] tracking-[2px]">Logo</a>
+      <ul class="flex items-center justify-center">
+        <li class="ml-5"><a href="" class="py-[6px] px-[15px] rounded-[20px] bg-white text-[#2b1055]">Home</a></li>
+        <li class="ml-5"><a href="" class="text-white py-[6px] px-[15px] rounded-[20px] hover:bg-white hover:text-[#2b1055]">About</a></li>
+        <li class="ml-5"><a href="" class="text-white py-[6px] px-[15px] rounded-[20px] hover:bg-white hover:text-[#2b1055]">Work</a></li>
+        <li class="ml-5"><a href="" class="text-white py-[6px] px-[15px] rounded-[20px] hover:bg-white hover:text-[#2b1055]">Contact</a></li>
+      </ul>
+    </header>
+    <section class="relative flex items-center justify-center w-full h-screen p-[100px] overflow-hidden before:absolute before:bottom-0 before:w-full before:h-[100px] before:bg-gradient-to-t before:from-[#1c0522] before:to-transparent before:z-50">
+      <img id="stars" class="absolute top-0 left-0 w-full h-full object-cover pointer-events-none" src="../public/img/stars.png" alt="">
+      <img id="moon" class="absolute top-0 left-0 w-full h-full object-cover mix-blend-screen pointer-events-none" src="../public/img/moon.png" alt="">
+      <img id="mountains-behind" class="absolute top-0 left-0 w-full h-full object-cover pointer-events-none" src="../public/img/mountains_behind.png" alt="">
+      <h2 id="text" class="absolute -right-[350px] text-white whitespace-nowrap font-bold text-[7.5vw] z-10">Moon Light</h2>
+      <a href="#content" id="btn" class="inline-block py-[8px] px-[30px] rounded-[40px] bg-white text-[#2b1055] text-[1.5em] z-10 translate-y-[100px]">Explore</a>
+      <img id="mountains-front" class="absolute top-0 left-0 w-full h-full object-cover pointer-events-none z-20" src="../public/img/mountains_front.png" alt="">
+    </section>
+    <div id="content" class="relative p-[100px] bg-[#1c0522]">
+      <h2 class="text-white text-[3.5em] mb-[10px]">Parallax Scrolling Effects</h2>
+      <p class="text-white text-[1em] py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quae perferendis alias impedit accusantium iusto incidunt, ratione sapiente dolorum. Maiores possimus sequi odio explicabo recusandae eius maxime cupiditate, quidem modi provident eos fugit laborum exercitationem nihil! Illum molestias rem possimus, quisquam est in atque autem animi perferendis quam ab, perspiciatis soluta eius illo repellat maxime nostrum. Totam nihil ad quasi asperiores quis laudantium eius natus ipsa eveniet reiciendis? Voluptatem iste eum debitis architecto quod nihil qui corrupti iusto exercitationem dolorum eius aperiam magnam, cum enim asperiores error quas facilis doloribus neque deleniti? Quibusdam earum eius aperiam, quis accusantium iusto cumque consequuntur temporibus dolorum laudantium tempore deleniti soluta in repellendus at blanditiis voluptas beatae perferendis quidem illo animi eveniet. Praesentium culpa voluptatem quasi sunt officiis repudiandae sequi id minus eligendi ea, dolorum totam dolore architecto suscipit dolorem molestiae deleniti alias numquam asperiores debitis explicabo tempore at nihil. Sapiente dignissimos nesciunt ex numquam error aliquam quam eligendi explicabo! Veniam ab omnis eius magni, molestias iure dolorum doloremque qui, quam in at. Expedita odit dolores provident, accusantium repudiandae nam minus omnis voluptatum odio eum! Praesentium voluptate labore consequatur sunt non saepe eligendi modi beatae porro illum. Dicta nostrum, maiores voluptatem ea veniam quis!</p>
+      <p class="text-white text-[1em] py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed error numquam eveniet adipisci delectus assumenda facilis officia tempora esse hic! Ipsa incidunt necessitatibus ad laudantium debitis omnis officia sapiente facilis ea, maiores quidem pariatur cumque corrupti aspernatur rem illo fugit non aliquam impedit dolorem sit atque dolor! Nulla eum modi nihil, fugit aut deserunt sunt id facere libero veniam quidem incidunt vel? Inventore velit praesentium maiores porro voluptate placeat omnis doloribus veritatis beatae corrupti. Provident reiciendis dolorum quam doloribus quo, veniam ipsam officia odio earum. Rem veniam expedita, assumenda quas, eveniet est similique sapiente, non explicabo nulla quaerat ullam! Doloremque reiciendis dignissimos rerum aliquam, voluptate ullam iusto cumque impedit in dolore neque suscipit sint iste labore obcaecati maxime velit nobis vitae totam. Ducimus harum obcaecati dolorem quas hic quam veniam dolor modi, corporis voluptates repellat ab atque voluptatum tempore expedita cupiditate, excepturi quaerat facilis magni vero vel corrupti possimus voluptatibus?</p>
+      <p class="text-white text-[1em] py-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur assumenda praesentium, vero accusamus dignissimos perspiciatis corporis rem aliquam blanditiis ea. Veritatis illum doloribus sint vero placeat, expedita vitae asperiores minus aperiam deserunt atque nemo blanditiis libero voluptates excepturi molestiae fugit modi eligendi dolore perspiciatis alias incidunt? Incidunt aliquam, eos molestiae voluptatum atque at molestias tempora dolorem perspiciatis animi dolorum ullam iusto explicabo repellendus earum omnis dignissimos placeat fugit. Eius accusantium ea quam laborum natus perspiciatis quos ipsa, voluptatum necessitatibus culpa at velit eveniet, quasi eum blanditiis, doloribus repellendus rem? Ducimus tenetur quisquam consectetur odio dolorum inventore a, suscipit deserunt in animi laborum quas vel quidem eligendi culpa beatae. Assumenda veniam libero distinctio dicta, nobis nam cumque temporibus iusto atque consequatur doloremque non, ea iure tempora blanditiis est? Ducimus repudiandae rem, corporis magnam, eligendi harum culpa fugiat ex illo numquam, hic sed nihil magni dolorem omnis quam fugit iure. Suscipit impedit, modi quia officia, voluptate ipsa vel asperiores temporibus nihil, mollitia praesentium. Ab voluptatibus tempora sapiente hic praesentium animi, soluta sed ut nobis ducimus magnam similique quod modi est qui aliquid.</p>
+      <p class="text-white text-[1em] py-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet ipsum rem quae vitae expedita suscipit. Dolorem nisi ratione eaque nostrum laudantium accusantium dolore placeat rerum amet laborum modi velit, dignissimos expedita sit veniam saepe aliquam sequi a blanditiis vitae ut. Quia, dolorem dicta? Iusto, fuga distinctio id odit quibusdam deleniti expedita ab nostrum, voluptatum commodi rerum repellat consequatur tempora. Sint repellendus corrupti, alias dolores porro accusamus. Beatae iste nostrum quis nam. Eius doloremque asperiores nostrum accusantium, tempore voluptates atque nulla reprehenderit, quam expedita quos magnam nihil earum suscipit aliquid, ducimus in quidem corporis aperiam similique molestiae cum consequuntur ut? Culpa repellendus sit assumenda harum amet mollitia, earum modi quas officiis rerum, vero quidem sint! Ut dicta quos quod non harum nisi neque molestiae dolore. Quod est eius, repellat commodi eligendi ea iste blanditiis quae harum repellendus vero ab alias ad?</p>
+    </div>
+    <script>
+      var header = document.querySelector('header'),
+        stars = document.getElementById('stars'),
+        moon = document.getElementById('moon'),
+        mountainsBehind = document.getElementById('mountains-behind'),
+        mountainsFront = document.getElementById('mountains-front'),
+        text = document.getElementById('text'),
+        btn = document.getElementById('btn');
+
+      window.addEventListener('scroll', function () {
+        var value = window.scrollY;
+
+        header.style.top = value * 0.5 + 'px';
+        stars.style.left = value * 0.25 + 'px';
+        moon.style.top = value * 1.05 + 'px';
+        mountainsBehind.style.top = value * 0.5 + 'px';
+        mountainsFront.style.top = value * 0 + 'px';
+        text.style.marginRight = value * 4 + 'px';
+        text.style.marginTop = value * 0.5 + 'px';
+        btn.style.marginTop = value * 0.5 + 'px';
+      });
+    </script>
+  </body>
+</html>
